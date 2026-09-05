@@ -1,0 +1,439 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Adham Hany, Computer Science Student, Full Stack Developer, Programming Instructor & Problem Solver from Egypt.">
+    <meta name="author" content="Adham Hany">
+    <title>Adham Hany | Full Stack Developer & Programming Instructor</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="background-effects">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">AH<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle Dark Mode">
+                    <i class="fa-solid fa-sun"></i>
+                </button>
+                <button class="mobile-menu-btn" id="mobile-menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#projects">Projects</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section">
+            <div class="hero-content">
+                <h2 class="greeting">Hello, I'm</h2>
+                <h1 class="name">Adham Hany</h1>
+                <h3 class="typing-text">I am a <span class="highlight">Full Stack Developer</span></h3>
+                <p class="hero-desc">
+                    Computer Science student and Full Stack Developer with hands-on experience building web, desktop, and Android applications using React, Node.js, Express.js, MongoDB, Firebase, Java, and Capacitor. Experienced in programming instruction and technical content creation with 300K+ views.
+                </p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-rocket"></i> View My Work</a>
+                    <a href="https://github.com/AdhamEl-Anany" target="_blank" class="btn btn-outline"><i class="fa-brands fa-github"></i> GitHub Profile</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper dynamic-profile-wrapper">
+                    <div class="img-crop-container">
+                        <img src="profile.jpg" alt="Adham Hany" class="profile-img">
+                    </div>
+                    <div class="profile-blob"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="section-header">
+                <h2 class="title">About <span class="highlight">Me</span></h2>
+                <div class="divider"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text glass-card">
+                    <h3>🎯 Professional Summary</h3>
+                    <p>
+                        Computer Science student and Full Stack Developer with hands-on experience building web, desktop, and Android applications using <strong>React, Node.js, Express.js, MongoDB, Firebase, Java, and Capacitor</strong>. Strong foundation in software engineering, OOP, data structures, algorithms, REST APIs, and Git/GitHub workflows. Also experienced in programming instruction and technical content creation, combining development skills with clear communication and problem solving.
+                    </p>
+                </div>
+                <div class="personal-info glass-card">
+                    <h3>👤 Contact & Info</h3>
+                    <ul class="info-list">
+                        <li><i class="fa-solid fa-user"></i> <strong>Name:</strong> Adham Hany (أدهم هاني)</li>
+                        <li><i class="fa-solid fa-graduation-cap"></i> <strong>Education:</strong> B.Sc. Computer Science (Helwan National Univ.)</li>
+                        <li><i class="fa-solid fa-envelope"></i> <strong>Email:</strong> <a href="mailto:adham.cs.guides@gmail.com">adham.cs.guides@gmail.com</a></li>
+                        <li><i class="fa-solid fa-phone"></i> <strong>Phone:</strong> +20 111 022 1575</li>
+                        <li><i class="fa-brands fa-linkedin"></i> <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/adham-el-anany-93878933a" target="_blank">adham-hany-93878933a</a></li>
+                        <li><i class="fa-brands fa-github"></i> <strong>GitHub:</strong> <a href="https://github.com/AdhamEl-Anany" target="_blank">AdhamEl-Anany</a></li>
+                        <li><i class="fa-solid fa-location-dot"></i> <strong>Location:</strong> Egypt</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience section">
+            <div class="section-header">
+                <h2 class="title">Professional <span class="highlight">Experience</span></h2>
+                <div class="divider"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item glass-card">
+                    <div class="timeline-dot"></div>
+                    <span class="badge-date">2024 - Present</span>
+                    <h3 class="timeline-title">Full Stack Developer | Personal & Team Projects</h3>
+                    <p class="timeline-desc">
+                        • Built full-stack applications using React, Node.js, Express.js, MongoDB, Firebase, SQL, and REST APIs.<br>
+                        • Implemented authentication, role-based dashboards, multilingual interfaces, responsive UIs, and data-driven workflows.<br>
+                        • Used Git/GitHub for version control, collaboration, and CI/CD automation across personal and team projects.
+                    </p>
+                </div>
+                <div class="timeline-item glass-card">
+                    <div class="timeline-dot"></div>
+                    <span class="badge-date">2025 - Present</span>
+                    <h3 class="timeline-title">Programming Instructor & Content Creator | Adham Hany (أدهم هاني)</h3>
+                    <p class="timeline-desc">
+                        • Teach programming and JavaScript to first-year baccalaureate students through structured lessons, practical examples, exercises, and follow-up.<br>
+                        • Founded and manage the educational channel <strong>"Adham Hany | أدهم هاني"</strong>, creating programming and Computer Science content with <strong>300K+ views</strong>.
+                    </p>
+                </div>
+                <div class="timeline-item glass-card">
+                    <div class="timeline-dot"></div>
+                    <span class="badge-date">2024 - Present</span>
+                    <h3 class="timeline-title">Competitive Programming | Codeforces & ICPC</h3>
+                    <p class="timeline-desc">
+                        • Practice algorithmic problem solving with focus on data structures, algorithms, number theory, and implementation speed.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section">
+            <div class="section-header">
+                <h2 class="title">Technical & Soft <span class="highlight">Skills</span></h2>
+                <div class="divider"></div>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category glass-card">
+                    <div class="category-icon"><i class="fa-brands fa-react"></i></div>
+                    <h3>Frontend</h3>
+                    <div class="tags">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">React</span>
+                        <span class="tag">Tailwind CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <div class="category-icon"><i class="fa-brands fa-node-js"></i></div>
+                    <h3>Backend & APIs</h3>
+                    <div class="tags">
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Express.js</span>
+                        <span class="tag">REST APIs</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <div class="category-icon"><i class="fa-solid fa-database"></i></div>
+                    <h3>Databases</h3>
+                    <div class="tags">
+                        <span class="tag">MongoDB</span>
+                        <span class="tag">Firebase</span>
+                        <span class="tag">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <div class="category-icon"><i class="fa-solid fa-code"></i></div>
+                    <h3>Languages</h3>
+                    <div class="tags">
+                        <span class="tag">C</span>
+                        <span class="tag">C++</span>
+                        <span class="tag">Java</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <div class="category-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                    <h3>Tools & Mobile</h3>
+                    <div class="tags">
+                        <span class="tag">Git</span>
+                        <span class="tag">GitHub</span>
+                        <span class="tag">VS Code</span>
+                        <span class="tag">Capacitor</span>
+                        <span class="tag">GitHub Actions</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <div class="category-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                    <h3>Concepts & Soft Skills</h3>
+                    <div class="tags">
+                        <span class="tag">OOP</span>
+                        <span class="tag">Data Structures</span>
+                        <span class="tag">Algorithms</span>
+                        <span class="tag">Problem Solving</span>
+                        <span class="tag">CI/CD</span>
+                        <span class="tag">Communication</span>
+                        <span class="tag">Leadership</span>
+                        <span class="tag">Time Management</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="certifications section">
+            <div class="section-header">
+                <h2 class="title">Certifications & <span class="highlight">Training</span></h2>
+                <div class="divider"></div>
+            </div>
+            <div class="cert-grid">
+                <div class="cert-card glass-card">
+                    <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+                    <h4>React Development</h4>
+                    <p>Information Technology Institute (ITI)</p>
+                </div>
+                <div class="cert-card glass-card">
+                    <div class="cert-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <h4>Web Development</h4>
+                    <p>National Telecommunication Institute (NTI)</p>
+                </div>
+                <div class="cert-card glass-card">
+                    <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
+                    <h4>STEM.org Certified Instructor</h4>
+                    <p>STEM.org Educational Accreditation</p>
+                </div>
+                <div class="cert-card glass-card">
+                    <div class="cert-icon"><i class="fa-solid fa-database"></i></div>
+                    <h4>Diploma in SQL (Beginner to Advanced)</h4>
+                    <p>UniAthena</p>
+                </div>
+                <div class="cert-card glass-card">
+                    <div class="cert-icon"><i class="fa-brands fa-java"></i></div>
+                    <h4>Java Developer Program (26 HR)</h4>
+                    <p>DataCamp</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section">
+            <div class="section-header">
+                <h2 class="title">Featured Live <span class="highlight">Projects</span></h2>
+                <p class="section-subtitle">Click on any project card or preview frame to open its live interactive site!</p>
+                <div class="divider"></div>
+            </div>
+
+            <!-- Web & Full-Stack Projects -->
+            <h3 class="project-category-title"><i class="fa-solid fa-globe"></i> Full-Stack & Web Applications (Live Previews)</h3>
+            <div class="projects-grid">
+                <!-- 1. NexarCart -->
+                <a href="https://adhamel-anany.github.io/NexarCart-Shopping-Web/" target="_blank" class="project-card glass-card">
+                    <div class="webview-container">
+                        <iframe src="https://adhamel-anany.github.io/NexarCart-Shopping-Web/" scrolling="no" tabindex="-1"></iframe>
+                    </div>
+                    <h4>🛒 NexarCart E-Commerce <i class="fa-solid fa-arrow-up-right-from-square"></i></h4>
+                    <p>Full-stack e-commerce platform with customer, seller & admin workflows, product comparison, multilingual support, and responsive design.</p>
+                </a>
+
+                <!-- 2. Facebook Clone -->
+                <a href="https://adhamel-anany.github.io/Facebook-Clone-Web/" target="_blank" class="project-card glass-card">
+                    <div class="webview-container">
+                        <iframe src="https://adhamel-anany.github.io/Facebook-Clone-Web/" scrolling="no" tabindex="-1"></iframe>
+                    </div>
+                    <h4>📱 Facebook Web App (React 19) <i class="fa-solid fa-arrow-up-right-from-square"></i></h4>
+                    <p>Modern Facebook web clone built with React 19 & Vite. Features interactive posts, reaction buttons, stories carousel & responsive UI.</p>
+                </a>
+
+                <!-- 3. ATS CV Builder -->
+                <a href="https://adhamel-anany.github.io/ATS-CV-Maker/" target="_blank" class="project-card glass-card">
+                    <div class="webview-container">
+                        <iframe src="https://adhamel-anany.github.io/ATS-CV-Maker/" scrolling="no" tabindex="-1"></iframe>
+                    </div>
+                    <h4>📄 Professional ATS CV Maker <i class="fa-solid fa-arrow-up-right-from-square"></i></h4>
+                    <p>ATS-friendly resume builder website with structured section controls, optimized layout presets, and live PDF export engine.</p>
+                </a>
+
+                <!-- 4. GOshare -->
+                <a href="https://github.com/AdhamEl-Anany/GOshare" target="_blank" class="project-card glass-card">
+                    <div class="project-icon"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+                    <h4>☁️ GOshare - Cloud File Sharing Platform & App <i class="fa-solid fa-arrow-up-right-from-square"></i></h4>
+                    <p>Firebase-backed file sharing platform with authentication, cloud storage, and Capacitor Android app with automated GitHub Actions APK builds.</p>
+                </a>
+
+                <!-- 5. Evolution Roadmap Tracer -->
+                <a href="https://adhamel-anany.github.io/Problem-Solving-Roadmap/" target="_blank" class="project-card glass-card">
+                    <div class="webview-container">
+                        <iframe src="https://adhamel-anany.github.io/Problem-Solving-Roadmap/" scrolling="no" tabindex="-1"></iframe>
+                    </div>
+                    <h4>🚀 Evolution Roadmap Tracer <i class="fa-solid fa-arrow-up-right-from-square"></i></h4>
+                    <p>Competitive programming roadmap tracker platform powered by Firebase authentication, leaderboards, and progress analytics.</p>
+                </a>
+
+                <!-- 6. Apple Website Clone -->
+                <a href="https://adhamel-anany.github.io/Apple-Website-Clone/" target="_blank" class="project-card glass-card">
+                    <div class="webview-container">
+                        <iframe src="https://adhamel-anany.github.io/Apple-Website-Clone/" scrolling="no" tabindex="-1"></iframe>
+                    </div>
+                    <h4>🍏 Apple Website Showcase <i class="fa-solid fa-arrow-up-right-from-square"></i></h4>
+                    <p>Sleek Apple product landing page clone featuring smooth video media playback, dark aesthetic, and responsive navigation.</p>
+                </a>
+
+                <!-- 7. Nike Shop -->
+                <a href="https://adhamel-anany.github.io/Nike-Shop-Website/" target="_blank" class="project-card glass-card">
+                    <div class="webview-container">
+                        <iframe src="https://adhamel-anany.github.io/Nike-Shop-Website/" scrolling="no" tabindex="-1"></iframe>
+                    </div>
+                    <h4>👟 Nike Shop Showcase <i class="fa-solid fa-arrow-up-right-from-square"></i></h4>
+                    <p>Custom-built Nike e-commerce showcase homepage with product categories, interactive image gallery, and modern styling.</p>
+                </a>
+
+                <!-- 8. Admin Dashboard -->
+                <a href="https://adhamel-anany.github.io/Admin-Dashboard-Web/" target="_blank" class="project-card glass-card">
+                    <div class="webview-container">
+                        <iframe src="https://adhamel-anany.github.io/Admin-Dashboard-Web/" scrolling="no" tabindex="-1"></iframe>
+                    </div>
+                    <h4>📊 Admin & Student Dashboard <i class="fa-solid fa-arrow-up-right-from-square"></i></h4>
+                    <p>Centralized web dashboard system for students with grade tracking, user registration, billing management, and data tables.</p>
+                </a>
+
+                <!-- 9. Creative To-Do List -->
+                <a href="https://adhamel-anany.github.io/Creative-ToDo-List/" target="_blank" class="project-card glass-card">
+                    <div class="webview-container">
+                        <iframe src="https://adhamel-anany.github.io/Creative-ToDo-List/" scrolling="no" tabindex="-1"></iframe>
+                    </div>
+                    <h4>📝 Creative To-Do List <i class="fa-solid fa-arrow-up-right-from-square"></i></h4>
+                    <p>Interactive task management application with fluid drag-and-drop mechanics, categories, and local state persistence.</p>
+                </a>
+
+                <!-- 10. Web Image Editor -->
+                <a href="https://adhamel-anany.github.io/Web-Image-Editor/" target="_blank" class="project-card glass-card">
+                    <div class="webview-container">
+                        <iframe src="https://adhamel-anany.github.io/Web-Image-Editor/" scrolling="no" tabindex="-1"></iframe>
+                    </div>
+                    <h4>🎨 Web Canvas Image Editor <i class="fa-solid fa-arrow-up-right-from-square"></i></h4>
+                    <p>Web-based photo editor leveraging HTML5 Canvas for real-time brightness, contrast, blur, contour, flip, and image export.</p>
+                </a>
+
+                <!-- 11. Electricity Utility System -->
+                <a href="https://adhamel-anany.github.io/Electricity-System-Web/" target="_blank" class="project-card glass-card">
+                    <div class="webview-container">
+                        <iframe src="https://adhamel-anany.github.io/Electricity-System-Web/" scrolling="no" tabindex="-1"></iframe>
+                    </div>
+                    <h4>⚡ Electricity Utility System <i class="fa-solid fa-arrow-up-right-from-square"></i></h4>
+                    <p>Electricity consumption calculator & utility dashboard system with card-based UI and usage analytics.</p>
+                </a>
+
+                <!-- 12. Network Connection Status Checker -->
+                <a href="https://adhamel-anany.github.io/Network-Status-Checker/" target="_blank" class="project-card glass-card">
+                    <div class="webview-container">
+                        <iframe src="https://adhamel-anany.github.io/Network-Status-Checker/" scrolling="no" tabindex="-1"></iframe>
+                    </div>
+                    <h4>🌐 Real-Time Network Status Checker <i class="fa-solid fa-arrow-up-right-from-square"></i></h4>
+                    <p>Live network speed & connection status indicator with instant online/offline state detection.</p>
+                </a>
+
+                <!-- 13. Pac-Man Portal -->
+                <a href="https://adhamel-anany.github.io/PacMan-JS-Game/" target="_blank" class="project-card glass-card">
+                    <div class="webview-container">
+                        <iframe src="https://adhamel-anany.github.io/PacMan-JS-Game/" scrolling="no" tabindex="-1"></iframe>
+                    </div>
+                    <h4>👾 Pac-Man Lore & Fan Portal <i class="fa-solid fa-arrow-up-right-from-square"></i></h4>
+                    <p>Pac-Man informational & fan web portal detailing character lore, ghost profiles, clans, and arcade video galleries.</p>
+                </a>
+            </div>
+
+            <!-- Desktop Applications, Software & Games -->
+            <h3 class="project-category-title mt-4"><i class="fa-solid fa-gamepad"></i> Desktop Apps, Software & Games</h3>
+            <div class="projects-grid">
+                <div class="project-card glass-card">
+                    <div class="project-icon"><i class="fa-brands fa-java"></i></div>
+                    <h4>Inventory Management System</h4>
+                    <p>Java Desktop Application using Swing, OOP & Serialization. Role-based system for admins, suppliers, and customers.</p>
+                </div>
+                <a href="https://adhamel-anany.github.io/Tic-Tac-Toe-Game/" target="_blank" class="project-card glass-card">
+                    <div class="webview-container">
+                        <iframe src="https://adhamel-anany.github.io/Tic-Tac-Toe-Game/" scrolling="no" tabindex="-1"></iframe>
+                    </div>
+                    <h4>❌ Tic-Tac-Toe (XO) Web Game <i class="fa-solid fa-arrow-up-right-from-square"></i></h4>
+                    <p>Classic 2-player XO game with engaging mechanics, score counter, and restart controls.</p>
+                </a>
+                <div class="project-card glass-card">
+                    <div class="project-icon"><i class="fa-solid fa-eye-slash"></i></div>
+                    <h4>Invisibility Cloak Project</h4>
+                    <p>Computer Vision project in Python & OpenCV replicating Harry Potter's invisibility cloak effect in real time.</p>
+                </div>
+                <div class="project-card glass-card">
+                    <div class="project-icon"><i class="fa-solid fa-microchip"></i></div>
+                    <h4>Round Robin CPU Scheduler</h4>
+                    <p>Python operating system simulation calculating CPU scheduling metrics and rendering Gantt execution charts.</p>
+                </div>
+                <div class="project-card glass-card">
+                    <div class="project-icon"><i class="fa-brands fa-linux"></i></div>
+                    <h4>University Linux Permissions System</h4>
+                    <p>System demonstrating role-based access control using Linux user groups, symbolic links, and file system permissions.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer glass-card">
+        <div class="footer-content">
+            <h2 class="footer-logo">AH<span>.</span></h2>
+            <p>Computer Science Student & Full Stack Developer | Let's build something amazing together.</p>
+            <div class="social-links">
+                <a href="mailto:adham.cs.guides@gmail.com" class="social-icon" aria-label="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="https://github.com/AdhamEl-Anany" target="_blank" class="social-icon" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/adham-el-anany-93878933a" target="_blank" class="social-icon" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
+            <p class="copyright">&copy; <span id="year"></span> Adham Hany. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
